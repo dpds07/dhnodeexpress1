@@ -4,17 +4,26 @@
   "description": "Repositório para criarmos um servidor node através do framework express",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dpds07/dhnodeexpress1.git"
   },
-  "keywords": ["nodejs", "express"],
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
   "author": "Davi Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dpds07/dhnodeexpress1/issues"
   },
-  "homepage": "https://github.com/dpds07/dhnodeexpress1#readme"
+  "homepage": "https://github.com/dpds07/dhnodeexpress1#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
